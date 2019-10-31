@@ -2,13 +2,14 @@
 title: "plotly examples"
 output: 
   html_document:
+    code_folding: hide
     toc: true
     toc_float: true
 ---
 
 My name is xing and i make websites _with interactive graphics_ !!!
 
-```{r}
+```{r, message=FALSE}
 library(tidyverse)
 library(viridis)
 library(p8105.datasets)
